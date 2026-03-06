@@ -1,55 +1,55 @@
 [submodule "src/modules/attendance"]
 	path = src/modules/attendance
-	url = https://github.com/Saudigitus/dhis2-semis-attendance.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-attendance.git
 	branch = develop
 	ignore = all
 [submodule "src/modules/enrollment"]
 	path = src/modules/enrollment
-	url = https://github.com/Saudigitus/dhis2-semis-enrollment.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-enrollment.git
 	branch = develop
 	ignore = all
 [submodule "src/modules/final-result"]
 	path = src/modules/final-result
-	url = https://github.com/Saudigitus/dhis2-semis-final-result.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-final-result.git
 	branch = develop
 	ignore = all
 [submodule "src/modules/performance"]
 	path = src/modules/performance
-	url = https://github.com/Saudigitus/dhis2-semis-performance.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-performance.git
 	branch = develop
 	ignore = all
 [submodule "src/modules/school-calendar"]
 	path = src/modules/school-calendar
-	url = https://github.com/Saudigitus/dhis2-emis-school-calendar.git
+	url = https://github.com/jahnical/malawi-dhis2-emis-school-calendar.git
 	branch = i18n
 	ignore = all
 [submodule "src/modules/transfer"]
 	path = src/modules/transfer
-	url = https://github.com/Saudigitus/dhis2-semis-transfer.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-transfer.git
 	branch = develop
 	ignore = all
 [submodule "src/modules/configurations"]
 	path = src/modules/configurations
-	url = https://github.com/Saudigitus/dhis2-emis-config.git
+	url = https://github.com/jahnical/malawi-dhis2-emis-config.git
 	branch = develop
 	ignore = all
 [submodule "src/modules/transfer-execute"]
 	path = src/modules/transfer-execute
-	url = https://github.com/Saudigitus/dhis2-semis-transfer-execute.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-transfer-execute.git
 	branch = develop
 	ignore = all
 [submodule "src/libs/components"]
 	path = src/libs/components
-	url = https://github.com/Saudigitus/dhis2-semis-components.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-components.git
 	branch = develop
 	ignore = all
 [submodule "src/libs/types"]
 	path = src/libs/types
-	url = https://github.com/Saudigitus/dhis2-semis-types.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-types.git
 	branch = preview
 	ignore = all
 [submodule "src/libs/functions"]
 	path = src/libs/functions
-	url = https://github.com/Saudigitus/dhis2-semis-customfunc.git
+	url = https://github.com/jahnical/malawi-dhis2-semis-customfunc.git
 	branch = develop
 	ignore = all
