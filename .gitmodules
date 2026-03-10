@@ -45,7 +45,7 @@
 	ignore = all
 [submodule "src/libs/types"]
 	path = src/libs/types
-	url = https://github.com/jahnical/malawi-dhis2-semis-types.git
+	url = https://github.com/jahnical/emis-dhis2-semis-types.git
 	branch = preview
 	ignore = all
 [submodule "src/libs/functions"]
