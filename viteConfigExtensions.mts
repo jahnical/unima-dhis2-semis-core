@@ -15,6 +15,7 @@ const viteConfig = defineConfig(async (configEnv) => {
                 'dhis2-semis-functions': path.resolve(__dirname, './src/libs/functions/src'),
                 'dhis2-semis-types': path.resolve(__dirname, './src/libs/types/src'),
 
+                'dhis2-semis-admission': path.resolve(__dirname, './src/modules/admission/src'),
                 'dhis2-semis-enrollment': path.resolve(__dirname, './src/modules/enrollment/src'),
                 'dhis2-semis-attendance': path.resolve(__dirname, './src/modules/attendance/src'),
                 'dhis2-semis-final-result': path.resolve(__dirname, './src/modules/final-result/src'),

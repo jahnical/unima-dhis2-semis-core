@@ -3,6 +3,9 @@ export const values = [
         "absenteeism": {
             "enabled": false
         },
+        "admission": {
+            "enabled": false
+        },
         "performance": {
             "lastUpdate": "",
             "enabled": false,

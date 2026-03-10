@@ -59,6 +59,28 @@ export const menuData = ({
         {
           icon: listAdd,
           displayInMenu: true,
+          label: i18n.t("Admission"),
+          badgeInfo: "",
+          disabled: false,
+          appName: "SEMIS-Admission",
+          id: "admission",
+          route: "/semis/admissions",
+          appUrl: `#/semis/admissions`,
+          active: false,
+          action: () =>
+            navigate(
+              `/semis/admissions?${subItemRoute(
+                locationParams,
+                "student",
+                academicYear,
+                filterDataElements,
+                pathname
+              )}`
+            ),
+        },
+        {
+          icon: listAdd,
+          displayInMenu: true,
           label: i18n.t("Enrollment"),
           badgeInfo: "",
           disabled: false,

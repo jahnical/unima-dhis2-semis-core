@@ -6,6 +6,7 @@ echo "🚀 Adicionando submodules SEMIS..."
 
 # Formato: "repositório|caminho|branch"
 declare -a submodules=(
+  "https://github.com/jahnical/malawi-dhis2-semis-admission.git|src/modules/admission|main"
   "https://github.com/Saudigitus/dhis2-semis-attendance.git|src/modules/attendance|develop"
   "https://github.com/Saudigitus/dhis2-semis-enrollment.git|src/modules/enrollment|develop"
   "https://github.com/Saudigitus/dhis2-semis-final-result.git|src/modules/final-result|develop"

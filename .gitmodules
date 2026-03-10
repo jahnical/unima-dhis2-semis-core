@@ -53,3 +53,7 @@
 	url = https://github.com/jahnical/malawi-dhis2-semis-customfunc.git
 	branch = develop
 	ignore = all
+[submodule "src/modules/admission"]
+	ignore = all
+	path = src/modules/admission
+	url = https://github.com/jahnical/malawi-dhis2-semis-admission.git

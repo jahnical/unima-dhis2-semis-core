@@ -8,6 +8,7 @@ import settings from "../../../assets/images/home/settings.svg";
 import i18n from "../../../locales"
 
 const studentCards = [
+    { label: i18n.t("Admission"), id: "admission", icon: enrollmentImage, path: "admissions" },
     { label: i18n.t("Enrollment"), id: "registration", icon: enrollmentImage, path: "enrollments" },
     { label: i18n.t("Attendance"), id: "attendance", icon: attendanceImage, path: "attendance" },
     { label: i18n.t("Performance"), id: "performance", icon: performanceImage, path: "performance" },
