@@ -6,7 +6,8 @@ export const values = [
         "admission": {
             "enabled": false,
             "studentIdentifier": "",
-            "admissionDate": ""
+            "admissionDate": "",
+            "replaceIdentifierYearPrefix": false
         },
         "performance": {
             "lastUpdate": "",
