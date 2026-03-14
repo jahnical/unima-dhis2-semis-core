@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2026-02-16T09:41:34.839Z\n"
-"PO-Revision-Date: 2026-02-16T09:41:34.840Z\n"
+"POT-Creation-Date: 2026-03-13T14:02:29.232Z\n"
+"PO-Revision-Date: 2026-03-13T14:02:29.232Z\n"
 
 msgid "No configuration found!"
 msgstr "No configuration found!"
@@ -53,6 +53,9 @@ msgstr "Student final result"
 msgid "Assign Final Result"
 msgstr "Assign Final Result"
 
+msgid "Basic Info"
+msgstr "Basic Info"
+
 msgid "Ref"
 msgstr "Ref"
 
@@ -61,6 +64,30 @@ msgstr "School"
 
 msgid "Error message"
 msgstr "Error message"
+
+msgid "New Records"
+msgstr "New Records"
+
+msgid "Invalid Records"
+msgstr "Invalid Records"
+
+msgid "Imported Records"
+msgstr "Imported Records"
+
+msgid "Updated Records"
+msgstr "Updated Records"
+
+msgid "Errors"
+msgstr "Errors"
+
+msgid "Warnings"
+msgstr "Warnings"
+
+msgid "Total rows"
+msgstr "Total rows"
+
+msgid "No records to display!"
+msgstr "No records to display!"
 
 msgid "Dry Run"
 msgstr "Dry Run"
@@ -106,29 +133,14 @@ msgstr ""
 msgid "Summary"
 msgstr "Summary"
 
-msgid "New Records"
-msgstr "New Records"
+msgid "Summary by tracker type"
+msgstr "Summary by tracker type"
 
-msgid "Invalid Records"
-msgstr "Invalid Records"
+msgid "Error details"
+msgstr "Error details"
 
-msgid "Imported Records"
-msgstr "Imported Records"
-
-msgid "Updated Records"
-msgstr "Updated Records"
-
-msgid "Error"
-msgstr "Error"
-
-msgid "Total rows"
-msgstr "Total rows"
-
-msgid "No records to display!"
-msgstr "No records to display!"
-
-msgid "Errors"
-msgstr "Errors"
+msgid "Warning details"
+msgstr "Warning details"
 
 msgid "Export Data Details"
 msgstr "Export Data Details"
@@ -175,14 +187,14 @@ msgstr "Cancel"
 msgid "Continue"
 msgstr "Continue"
 
+msgid "More Filters"
+msgstr "More Filters"
+
 msgid "Update"
 msgstr "Update"
 
 msgid "Restore"
 msgstr "Restore"
-
-msgid "More Filters"
-msgstr "More Filters"
 
 msgid "Enter text"
 msgstr "Enter text"
@@ -232,23 +244,11 @@ msgstr "rows will be affected"
 msgid "Student promotion"
 msgstr "Student promotion"
 
-msgid "Enrollment History"
-msgstr "Enrollment History"
-
-msgid "This {{section}} is already enrolled for this year."
-msgstr "This {{section}} is already enrolled for this year."
-
-msgid "New enrollment"
-msgstr "New enrollment"
-
-msgid "No enrollments found."
-msgstr "No enrollments found."
-
 msgid "View history"
 msgstr "View history"
 
-msgid "Register new"
-msgstr "Register new"
+msgid "Admit new"
+msgstr "Admit new"
 
 msgid "Fill in at least 1 attribute to search."
 msgstr "Fill in at least 1 attribute to search."
@@ -271,11 +271,32 @@ msgstr "No"
 msgid "found"
 msgstr "found"
 
+msgid "Continue searching or click"
+msgstr "Continue searching or click"
+
+msgid "if you want to admit as a new"
+msgstr "if you want to admit as a new"
+
+msgid "Register new"
+msgstr "Register new"
+
 msgid "Continue serching or click"
 msgstr "Continue serching or click"
 
 msgid "if you want to register as a new"
 msgstr "if you want to register as a new"
+
+msgid "Enrollment History"
+msgstr "Enrollment History"
+
+msgid "This {{section}} is already enrolled for this year."
+msgstr "This {{section}} is already enrolled for this year."
+
+msgid "New enrollment"
+msgstr "New enrollment"
+
+msgid "No enrollments found."
+msgstr "No enrollments found."
 
 msgid "rows selected"
 msgstr "rows selected"
@@ -316,6 +337,126 @@ msgstr "No data to display"
 msgid "Hello {{name}}"
 msgstr "Hello {{name}}"
 
+msgid "Unknown error"
+msgstr "Unknown error"
+
+msgid "Admit new {{section}}"
+msgstr "Admit new {{section}}"
+
+msgid "Bulk Admission"
+msgstr "Bulk Admission"
+
+msgid "Update existing {{section}}"
+msgstr "Update existing {{section}}"
+
+msgid "Bulk Admission Update"
+msgstr "Bulk Admission Update"
+
+msgid "Export Empty Template"
+msgstr "Export Empty Template"
+
+msgid "Export Existing {{section}}"
+msgstr "Export Existing {{section}}"
+
+msgid "Please select an organisation unit before"
+msgstr "Please select an organisation unit before"
+
+msgid "Search by {{section}}"
+msgstr "Search by {{section}}"
+
+msgid "Admit {{section}}"
+msgstr "Admit {{section}}"
+
+msgid "Enroll Selected ({{count}})"
+msgid_plural "Enroll Selected ({{count}})"
+msgstr[0] "Enroll Selected ({{count}})"
+msgstr[1] "Enroll Selected ({{count}})"
+
+msgid "Please select an organisation unit and academic year"
+msgstr "Please select an organisation unit and academic year"
+
+msgid "Bulk admission"
+msgstr "Bulk admission"
+
+msgid "Admission Deletion"
+msgstr "Admission Deletion"
+
+msgid "Could not complete bulk enrollment."
+msgstr "Could not complete bulk enrollment."
+
+msgid "{{count}} {{section}}s enrolled successfully"
+msgid_plural "{{count}} {{section}}s enrolled successfully"
+msgstr[0] "{{count}} {{section}}s enrolled successfully"
+msgstr[1] "{{count}} {{section}}s enrolled successfully"
+
+msgid "Enroll {{count}} Admitted {{section}}s"
+msgid_plural "Enroll {{count}} Admitted {{section}}s"
+msgstr[0] "Enroll {{count}} Admitted {{section}}s"
+msgstr[1] "Enroll {{count}} Admitted {{section}}s"
+
+msgid ""
+"You are about to enroll {{count}} admitted {{section}}(s). This will mark "
+"their admission as complete."
+msgid_plural ""
+"You are about to enroll {{count}} admitted {{section}}(s). This will mark "
+"their admission as complete."
+msgstr[0] ""
+"You are about to enroll {{count}} admitted {{section}}(s). This will mark "
+"their admission as complete."
+msgstr[1] ""
+"You are about to enroll {{count}} admitted {{section}}(s). This will mark "
+"their admission as complete."
+
+msgid "Enroll {{count}} {{section}}s"
+msgid_plural "Enroll {{count}} {{section}}s"
+msgstr[0] "Enroll {{count}} {{section}}s"
+msgstr[1] "Enroll {{count}} {{section}}s"
+
+msgid "Could not complete enrollment."
+msgstr "Could not complete enrollment."
+
+msgid "Student enrolled successfully"
+msgstr "Student enrolled successfully"
+
+msgid "Enroll Admitted {{section}}"
+msgstr "Enroll Admitted {{section}}"
+
+msgid "Could not conclude the opertation."
+msgstr "Could not conclude the opertation."
+
+msgid "Operation concluded successfully"
+msgstr "Operation concluded successfully"
+
+msgid "Single {{section}} Admission {{mode}}"
+msgstr "Single {{section}} Admission {{mode}}"
+
+msgid "Edition"
+msgstr "Edition"
+
+msgid "Enroll"
+msgstr "Enroll"
+
+msgid "Enrolled"
+msgstr "Enrolled"
+
+msgid "Not Enrolled"
+msgstr "Not Enrolled"
+
+msgid "SEMIS-Admission"
+msgstr "SEMIS-Admission"
+
+msgid "Follow the instructions to proceed"
+msgstr "Follow the instructions to proceed"
+
+msgid "Select the Organization unit you want to view data"
+msgstr "Select the Organization unit you want to view data"
+
+msgid "Use global filters(Class, Grade and Academic Year)"
+msgstr "Use global filters(Class, Grade and Academic Year)"
+
+msgid "Admissions"
+msgstr "Admissions"
+
 msgid "Uncomplete attendance"
 msgstr "Uncomplete attendance"
 
@@ -340,17 +481,11 @@ msgstr "Attendance"
 msgid "Bulk attendance"
 msgstr "Bulk attendance"
 
-msgid "Unknown error"
-msgstr "Unknown error"
-
 msgid "Import {{section}} atendances"
 msgstr "Import {{section}} atendances"
 
 msgid "Export {{section}} atendances"
 msgstr "Export {{section}} atendances"
-
-msgid "Please select an organisation unit before"
-msgstr "Please select an organisation unit before"
 
 msgid "Take attendance"
 msgstr "Take attendance"
@@ -381,15 +516,6 @@ msgstr "View reason of absense"
 
 msgid "SEMIS-Attendance"
 msgstr "SEMIS-Attendance"
-
-msgid "Follow the instructions to proceed"
-msgstr "Follow the instructions to proceed"
-
-msgid "Select the Organization unit you want to view data"
-msgstr "Select the Organization unit you want to view data"
-
-msgid "Use global filters(Class, Grade and Academic Year)"
-msgstr "Use global filters(Class, Grade and Academic Year)"
 
 msgid "Configurations saved successfuly"
 msgstr "Configurations saved successfuly"
@@ -433,6 +559,36 @@ msgstr "You must configure this module first to enable it"
 
 msgid "{{section}}"
 msgstr "{{section}}"
+
+msgid "Attribute of type date"
+msgstr "Attribute of type date"
+
+msgid "Admission date"
+msgstr "Admission date"
+
+msgid ""
+"Attribute used as student identifier. If left empty by the user during "
+"admission, the system will auto-generate a value using the attribute "
+"pattern."
+msgstr ""
+"Attribute used as student identifier. If left empty by the user during "
+"admission, the system will auto-generate a value using the attribute "
+"pattern."
+
+msgid "Student Identifier"
+msgstr "Student Identifier"
+
+msgid "Replace identifier year prefix"
+msgstr "Replace identifier year prefix"
+
+msgid ""
+"When enabled, the first 4 digits of a generated student identifier will be "
+"replaced with the upper year of the academic calendar that the admission "
+"date falls in."
+msgstr ""
+"When enabled, the first 4 digits of a generated student identifier will be "
+"replaced with the upper year of the academic calendar that the admission "
+"date falls in."
 
 msgid "Data Element with option sets"
 msgstr "Data Element with option sets"
@@ -611,6 +767,9 @@ msgstr "Type of staff"
 msgid "Type of staff filter name"
 msgstr "Type of staff filter name"
 
+msgid "Admission"
+msgstr "Admission"
+
 msgid "Enrollment"
 msgstr "Enrollment"
 
@@ -631,6 +790,9 @@ msgstr "Re-enroll"
 
 msgid "Program Details"
 msgstr "Program Details"
+
+msgid "Admission Details"
+msgstr "Admission Details"
 
 msgid "Attendance General Details"
 msgstr "Attendance General Details"
@@ -680,20 +842,8 @@ msgstr "Enroll new {{section}}"
 msgid "Bulk Enrollment"
 msgstr "Bulk Enrollment"
 
-msgid "Update existing {{section}}"
-msgstr "Update existing {{section}}"
-
 msgid "Bulk Enrollment Update"
 msgstr "Bulk Enrollment Update"
-
-msgid "Export Empty Template"
-msgstr "Export Empty Template"
-
-msgid "Export Existing {{section}}"
-msgstr "Export Existing {{section}}"
-
-msgid "Search by {{section}}"
-msgstr "Search by {{section}}"
 
 msgid "Enroll {{section}}"
 msgstr "Enroll {{section}}"
@@ -704,17 +854,8 @@ msgstr "Bulk enrollment"
 msgid "Enrollment Deletion"
 msgstr "Enrollment Deletion"
 
-msgid "Could not conclude the opertation."
-msgstr "Could not conclude the opertation."
-
-msgid "Operation concluded successfully"
-msgstr "Operation concluded successfully"
-
 msgid "Single {{section}} Enrollment {{mode}}"
 msgstr "Single {{section}} Enrollment {{mode}}"
-
-msgid "Edition"
-msgstr "Edition"
 
 msgid "Delete"
 msgstr "Delete"
@@ -1099,11 +1240,3 @@ msgstr "Staff Re-enroll"
 msgctxt "Date"
 msgid "Enrollment"
 msgstr "Enrollment_Date"
-
-msgctxt "Application title"
-msgid "__MANIFEST_APP_TITLE"
-msgstr "SEMIS"
-
-msgctxt "Application description"
-msgid "__MANIFEST_APP_DESCRIPTION"
-msgstr "SEMIS"
