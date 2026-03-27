@@ -23,9 +23,7 @@ export function validateNestedKeys(
         const refVal = refObj[key];
 
         if (!(key in refObj)) {
-            errors.push(
-                `The key '${key}' is missing in '${parentKey}' for the object with key '${inputObj.key || "unknown"}`
-            );
+            // Ignore unknown legacy keys during compatibility validation.
             continue;
         }
 
@@ -63,9 +61,9 @@ export function mergeDeep(ref: any, input: any, errors: any[]): any {
     }
 
     const merged: any = {};
-    const allKeys = new Set([...Object.keys(ref), ...Object.keys(input || {})]);
+    const referenceKeys = Object.keys(ref || {});
 
-    for (const key of allKeys) {
+    for (const key of referenceKeys) {
         if (!Object.keys(input || {})?.some(x => x == key)) errors.push(
             `Missing required field '${key}' in object: ${JSON.stringify(input)}`
         )
@@ -86,7 +84,25 @@ export const useValidate = () => {
     ): ValidationResult {
         const errors: string[] = [];
         const converted: AnyObject[] = [];
-        const inputCopy = [...(input?.length > 0 ? input : [{}, {}])]
+        const inputCopy = [...(input?.length > 0 ? input : [])]
+
+        console.log("SEMIS_DEBUG[valuesFormatter] validate start", {
+            inputLength: Array.isArray(input) ? input.length : null,
+            inputKeys: Array.isArray(input) ? input.map((item) => item?.key) : null,
+            referenceLength: Array.isArray(reference) ? reference.length : null,
+            referenceKeys: Array.isArray(reference) ? reference.map((item) => item?.key) : null
+        })
+
+        if (inputCopy.length === 0) {
+            console.log("SEMIS_DEBUG[valuesFormatter] empty input treated as valid")
+            return {
+                isValid: true,
+                errors,
+                converted: reference,
+                academicYear,
+                currentAcademicYear,
+            };
+        }
 
         for (const item of inputCopy) {
 
@@ -103,8 +119,7 @@ export const useValidate = () => {
 
             const refItem = reference.find(r => r.key === item.key);
             if (!refItem) {
-                errors.push(`Missing reference for key '${item.key}'`);
-                converted
+                console.log("SEMIS_DEBUG[valuesFormatter] skipping unknown top-level key", { key: item?.key })
                 continue;
             }
 
@@ -136,13 +151,13 @@ export const useValidate = () => {
                         output[key] = mergeDeep(refValue, inputValue, errors);
 
                         if (key !== 'registration') {
-                            validateNestedKeys(inputValue, inputValue, key, errors);
+                            validateNestedKeys(inputValue, refValue, key, errors);
                         }
                     } else {
                         output[key] = inputValue;
                     }
                 } else {
-                    errors.push(`Unexpected key '${key}' in object with key '${item.key}'`);
+                    // Ignore unknown legacy keys at top-level.
                 }
 
             }
@@ -153,6 +168,15 @@ export const useValidate = () => {
 
             converted.push(output);
         }
+
+        console.log("SEMIS_DEBUG[valuesFormatter] validate done", {
+            isValid: errors?.length === 0,
+            errorCount: errors.length,
+            firstErrors: errors.slice(0, 10),
+            convertedLength: converted.length,
+            academicYear,
+            currentAcademicYear
+        })
 
         return {
             isValid: errors?.length === 0,

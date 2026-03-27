@@ -17,20 +17,51 @@ const Validator = () => {
 
 
     useEffect(() => {
+        console.log("SEMIS_DEBUG[Validator] effect", {
+            notFoundConfig: dataStoreStatus?.not_found_config,
+            notFoundCalendar: dataStoreStatus?.not_found_calendar,
+            dataStoreLength: Array.isArray(dataStore) ? dataStore.length : null,
+            dataStoreType: typeof dataStore
+        })
+
+        if (dataStoreStatus?.not_found_config) {
+            console.log("SEMIS_DEBUG[Validator] skip conversion prompt: config not found")
+            setOpen(false)
+            return
+        }
+
+        if (Array.isArray(dataStore) && dataStore.length === 0) {
+            console.log("SEMIS_DEBUG[Validator] skip conversion prompt: datastore is empty array")
+            setOpen(false)
+            return
+        }
+
         if (dataStore != undefined) {
             const { errors, isValid, converted, academicYear, currentAcademicYear } = validateAndConvertArrayAgainstReference(
                 dataStore,
                 values as unknown as any
             )
 
+            console.log("SEMIS_DEBUG[Validator] validation result", {
+                isValid,
+                errorCount: errors?.length,
+                firstErrors: (errors || []).slice(0, 5),
+                convertedLength: converted?.length,
+                academicYear,
+                currentAcademicYear
+            })
+
             if (!isValid) {
+                console.log("SEMIS_DEBUG[Validator] opening conversion modal")
                 setValidation({ valid: true, converted: converted, deniedConversion: false, year: academicYear, currentAcademicYear: currentAcademicYear })
                 setOpen(true)
             } else {
+                console.log("SEMIS_DEBUG[Validator] data is valid, closing conversion modal")
+                setOpen(false)
                 setValidation((prev: any) => ({ ...prev, valid: true }))
             }
         }
-    }, [dataStore])
+    }, [dataStore, dataStoreStatus?.not_found_config])
 
     return (
         <WithPadding p={Boolean(dataStoreStatus?.not_found_config || dataStoreStatus?.not_found_calendar || validation.deniedConversion) ? "10px 30px" : "0px"}>
