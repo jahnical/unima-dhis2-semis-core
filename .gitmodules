@@ -57,3 +57,4 @@
 	ignore = all
 	path = src/modules/admission
 	url = https://github.com/jahnical/malawi-dhis2-semis-admission.git
+	branch = develop
