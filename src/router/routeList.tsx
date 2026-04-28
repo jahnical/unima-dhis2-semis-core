@@ -1,5 +1,5 @@
 import Home from "../pages/home";
-import { AdmissionPage } from "dhis2-semis-admission";
+// import { AdmissionPage } from "dhis2-semis-admission";
 import { EnrollmentPage } from "dhis2-semis-enrollment";
 import { Transfer } from "dhis2-semis-transfer"
 import { TransferExecute } from "dhis2-semis-transfer-execute"
@@ -18,10 +18,10 @@ export default function RouteList() {
             path: "/semis",
             component: <Home />
         },
-        {
-            path: "/semis/admissions",
-            component: <AdmissionPage i18n={i18n} baseUrl={baseUrl} />
-        },
+        // {
+        //     path: "/semis/admissions",
+        //     component: <AdmissionPage i18n={i18n} baseUrl={baseUrl} />
+        // },
         {
             path: "/semis/enrollments",
             component: <EnrollmentPage i18n={i18n} baseUrl={baseUrl} />
