@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2026-03-13T14:02:29.232Z\n"
-"PO-Revision-Date: 2026-03-13T14:02:29.232Z\n"
+"POT-Creation-Date: 2026-05-15T07:54:28.005Z\n"
+"PO-Revision-Date: 2026-05-15T07:54:28.007Z\n"
 
 msgid "No configuration found!"
 msgstr "No configuration found!"
@@ -65,30 +65,6 @@ msgstr "School"
 msgid "Error message"
 msgstr "Error message"
 
-msgid "New Records"
-msgstr "New Records"
-
-msgid "Invalid Records"
-msgstr "Invalid Records"
-
-msgid "Imported Records"
-msgstr "Imported Records"
-
-msgid "Updated Records"
-msgstr "Updated Records"
-
-msgid "Errors"
-msgstr "Errors"
-
-msgid "Warnings"
-msgstr "Warnings"
-
-msgid "Total rows"
-msgstr "Total rows"
-
-msgid "No records to display!"
-msgstr "No records to display!"
-
 msgid "Dry Run"
 msgstr "Dry Run"
 
@@ -142,6 +118,30 @@ msgstr "Error details"
 msgid "Warning details"
 msgstr "Warning details"
 
+msgid "New Records"
+msgstr "New Records"
+
+msgid "Invalid Records"
+msgstr "Invalid Records"
+
+msgid "Imported Records"
+msgstr "Imported Records"
+
+msgid "Updated Records"
+msgstr "Updated Records"
+
+msgid "Errors"
+msgstr "Errors"
+
+msgid "Warnings"
+msgstr "Warnings"
+
+msgid "Total rows"
+msgstr "Total rows"
+
+msgid "No records to display!"
+msgstr "No records to display!"
+
 msgid "Export Data Details"
 msgstr "Export Data Details"
 
@@ -187,14 +187,14 @@ msgstr "Cancel"
 msgid "Continue"
 msgstr "Continue"
 
-msgid "More Filters"
-msgstr "More Filters"
-
 msgid "Update"
 msgstr "Update"
 
 msgid "Restore"
 msgstr "Restore"
+
+msgid "More Filters"
+msgstr "More Filters"
 
 msgid "Enter text"
 msgstr "Enter text"
@@ -277,15 +277,6 @@ msgstr "Continue searching or click"
 msgid "if you want to admit as a new"
 msgstr "if you want to admit as a new"
 
-msgid "Register new"
-msgstr "Register new"
-
-msgid "Continue serching or click"
-msgstr "Continue serching or click"
-
-msgid "if you want to register as a new"
-msgstr "if you want to register as a new"
-
 msgid "Enrollment History"
 msgstr "Enrollment History"
 
@@ -297,6 +288,15 @@ msgstr "New enrollment"
 
 msgid "No enrollments found."
 msgstr "No enrollments found."
+
+msgid "Register new"
+msgstr "Register new"
+
+msgid "Continue serching or click"
+msgstr "Continue serching or click"
+
+msgid "if you want to register as a new"
+msgstr "if you want to register as a new"
 
 msgid "rows selected"
 msgstr "rows selected"
@@ -394,24 +394,6 @@ msgid_plural "Enroll {{count}} Admitted {{section}}s"
 msgstr[0] "Enroll {{count}} Admitted {{section}}s"
 msgstr[1] "Enroll {{count}} Admitted {{section}}s"
 
-msgid ""
-"You are about to enroll {{count}} admitted {{section}}(s). This will mark "
-"their admission as complete."
-msgid_plural ""
-"You are about to enroll {{count}} admitted {{section}}(s). This will mark "
-"their admission as complete."
-msgstr[0] ""
-"You are about to enroll {{count}} admitted {{section}}(s). This will mark "
-"their admission as complete."
-msgstr[1] ""
-"You are about to enroll {{count}} admitted {{section}}(s). This will mark "
-"their admission as complete."
-
-msgid "Enroll {{count}} {{section}}s"
-msgid_plural "Enroll {{count}} {{section}}s"
-msgstr[0] "Enroll {{count}} {{section}}s"
-msgstr[1] "Enroll {{count}} {{section}}s"
-
 msgid "Could not complete enrollment."
 msgstr "Could not complete enrollment."
 
@@ -430,6 +412,15 @@ msgstr "Operation concluded successfully"
 msgid "Single {{section}} Admission {{mode}}"
 msgstr "Single {{section}} Admission {{mode}}"
 
+msgid "Transfer"
+msgstr "Transfer"
+
+msgid "Current Standard"
+msgstr "Current Standard"
+
+msgid "Admission Date"
+msgstr "Admission Date"
+
 msgid "Edition"
 msgstr "Edition"
 
@@ -441,6 +432,12 @@ msgstr "Enrolled"
 
 msgid "Not Enrolled"
 msgstr "Not Enrolled"
+
+msgid "Transfer IN"
+msgstr "Transfer IN"
+
+msgid "Transfer OUT"
+msgstr "Transfer OUT"
 
 msgid "SEMIS-Admission"
 msgstr "SEMIS-Admission"
@@ -578,17 +575,15 @@ msgstr ""
 msgid "Student Identifier"
 msgstr "Student Identifier"
 
-msgid "Replace identifier year prefix"
-msgstr "Replace identifier year prefix"
+msgid "Replace first 4 digits with next admission year"
+msgstr "Replace first 4 digits with next admission year"
 
 msgid ""
-"When enabled, the first 4 digits of a generated student identifier will be "
-"replaced with the upper year of the academic calendar that the admission "
-"date falls in."
+"When enabled, the first 4 digits of a generated student identifier are "
+"replaced with the next year of the admission date (admission year + 1)."
 msgstr ""
-"When enabled, the first 4 digits of a generated student identifier will be "
-"replaced with the upper year of the academic calendar that the admission "
-"date falls in."
+"When enabled, the first 4 digits of a generated student identifier are "
+"replaced with the next year of the admission date (admission year + 1)."
 
 msgid "Data Element with option sets"
 msgstr "Data Element with option sets"
@@ -679,6 +674,12 @@ msgstr "Allow multi selection of program stage"
 
 msgid "Performance/marks Program Stages"
 msgstr "Performance/marks Program Stages"
+
+msgid "The shared option set used for grading across all subjects"
+msgstr "The shared option set used for grading across all subjects"
+
+msgid "Grade Option Set"
+msgstr "Grade Option Set"
 
 msgid "Tracker Program"
 msgstr "Tracker Program"
@@ -775,9 +776,6 @@ msgstr "Enrollment"
 
 msgid "Performance"
 msgstr "Performance"
-
-msgid "Transfer"
-msgstr "Transfer"
 
 msgid "Final Result"
 msgstr "Final Result"
@@ -1138,8 +1136,26 @@ msgstr "Saturday"
 msgid "Sunday"
 msgstr "Sunday"
 
+msgid "Search transfer"
+msgstr "Search transfer"
+
 msgid "Perform transfer"
 msgstr "Perform transfer"
+
+msgid "Approve"
+msgstr "Approve"
+
+msgid "Reject"
+msgstr "Reject"
+
+msgid "Pending incoming transfers"
+msgstr "Pending incoming transfers"
+
+msgid "No pending incoming transfers found"
+msgstr "No pending incoming transfers found"
+
+msgid "No students with a pending incoming transfer match your search."
+msgstr "No students with a pending incoming transfer match your search."
 
 msgid "Confirm"
 msgstr "Confirm"
@@ -1201,8 +1217,8 @@ msgstr "Request transfer"
 msgid "WARNING!"
 msgstr "WARNING!"
 
-msgid "Select the destination school"
-msgstr "Select the destination school"
+msgid "Specify all necessary transfer details"
+msgstr "Specify all necessary transfer details"
 
 msgid "Perform Transfer"
 msgstr "Perform Transfer"
