@@ -4,6 +4,7 @@ import gauge from "../../../assets/images/sidebar/gauge.svg";
 import glyph from "../../../assets/images/sidebar/Glyph.svg";
 import logOut from "../../../assets/images/sidebar/log-out.svg";
 import listAdd from "../../../assets/images/sidebar/listAdd.svg";
+import editNote from "../../../assets/images/sidebar/edit_note_24dp.svg";
 import userGroup from "../../../assets/images/sidebar/user-group.svg";
 import settings from "../../../assets/images/sidebar/settings.svg";
 import fileDocument from "../../../assets/images/sidebar/file-document.svg";
@@ -79,7 +80,7 @@ export const menuData = ({
             ),
         },
         {
-          icon: listAdd,
+          icon: editNote,
           displayInMenu: true,
           label: i18n.t("Enrollment"),
           badgeInfo: "",

@@ -1,6 +1,7 @@
 import resultImage from "../../../assets/images/home/result.png";
 import transferImage from "../../../assets/images/home/transfer.png";
 import enrollmentImage from "../../../assets/images/home/enrollment.png";
+import admissionImage from "../../../assets/images/home/admission.png";
 import attendanceImage from "../../../assets/images/home/attendance.png";
 import performanceImage from "../../../assets/images/home/performance.png";
 import schoolCallendar from "../../../assets/images/home/callendar.svg";
@@ -9,7 +10,7 @@ import i18n from "../../../locales"
 
 const studentCards = [
     { label: i18n.t("Admission"), id: "admission", icon: enrollmentImage, path: "admissions" },
-    { label: i18n.t("Enrollment"), id: "registration", icon: enrollmentImage, path: "enrollments" },
+    { label: i18n.t("Enrollment"), id: "registration", icon: admissionImage, path: "enrollments" },
     { label: i18n.t("Attendance"), id: "attendance", icon: attendanceImage, path: "attendance" },
     { label: i18n.t("Performance"), id: "performance", icon: performanceImage, path: "performance" },
     { label: i18n.t("Transfer"), id: "transfer", icon: transferImage, path: "transfer" },
