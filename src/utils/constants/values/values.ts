@@ -7,6 +7,7 @@ export const values = [
             "enabled": false,
             "studentIdentifier": "",
             "admissionDate": "",
+            "academicYearAttribute": "",
             "replaceIdentifierYearPrefix": false
         },
         "performance": {
