@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2026-05-15T07:54:28.005Z\n"
-"PO-Revision-Date: 2026-05-15T07:54:28.007Z\n"
+"POT-Creation-Date: 2026-09-29T12:56:46.996Z\n"
+"PO-Revision-Date: 2026-09-29T12:56:46.997Z\n"
 
 msgid "No configuration found!"
 msgstr "No configuration found!"
@@ -256,20 +256,14 @@ msgstr "Fill in at least 1 attribute to search."
 msgid "Search by"
 msgstr "Search by"
 
-msgid "Search"
-msgstr "Search"
+msgid "Search {{section}}"
+msgstr "Search {{section}}"
 
-msgid "Results found for"
-msgstr "Results found for"
+msgid "{{section}} search results"
+msgstr "{{section}} search results"
 
-msgid "search"
-msgstr "search"
-
-msgid "No"
-msgstr "No"
-
-msgid "found"
-msgstr "found"
+msgid "No {{section}} found"
+msgstr "No {{section}} found"
 
 msgid "Continue searching or click"
 msgstr "Continue searching or click"
@@ -291,9 +285,6 @@ msgstr "No enrollments found."
 
 msgid "Register new"
 msgstr "Register new"
-
-msgid "Continue serching or click"
-msgstr "Continue serching or click"
 
 msgid "if you want to register as a new"
 msgstr "if you want to register as a new"
@@ -334,6 +325,42 @@ msgstr "Next Page"
 msgid "No data to display"
 msgstr "No data to display"
 
+msgid "Select the Organization unit you want to view data"
+msgstr "Select the Organization unit you want to view data"
+
+msgid "Select the academic year"
+msgstr "Select the academic year"
+
+msgid "Select {{filters}}"
+msgstr "Select {{filters}}"
+
+msgid "Optionally narrow the list by academic year and {{filters}}"
+msgstr "Optionally narrow the list by academic year and {{filters}}"
+
+msgid "Optionally narrow the list by {{filters}}"
+msgstr "Optionally narrow the list by {{filters}}"
+
+msgid "Optionally narrow the list by academic year"
+msgstr "Optionally narrow the list by academic year"
+
+msgid "student"
+msgstr "student"
+
+msgid "students"
+msgstr "students"
+
+msgid "Student"
+msgstr "Student"
+
+msgid "staff member"
+msgstr "staff member"
+
+msgid "staff"
+msgstr "staff"
+
+msgid "Staff"
+msgstr "Staff"
+
 msgid "Hello {{name}}"
 msgstr "Hello {{name}}"
 
@@ -355,9 +382,6 @@ msgstr "Bulk Admission Update"
 msgid "Export Empty Template"
 msgstr "Export Empty Template"
 
-msgid "Export Existing {{section}}"
-msgstr "Export Existing {{section}}"
-
 msgid "Please select an organisation unit before"
 msgstr "Please select an organisation unit before"
 
@@ -378,21 +402,24 @@ msgstr "Please select an organisation unit and academic year"
 msgid "Bulk admission"
 msgstr "Bulk admission"
 
+msgid "Export {{section}}"
+msgstr "Export {{section}}"
+
 msgid "Admission Deletion"
 msgstr "Admission Deletion"
 
 msgid "Could not complete bulk enrollment."
 msgstr "Could not complete bulk enrollment."
 
-msgid "{{count}} {{section}}s enrolled successfully"
-msgid_plural "{{count}} {{section}}s enrolled successfully"
-msgstr[0] "{{count}} {{section}}s enrolled successfully"
-msgstr[1] "{{count}} {{section}}s enrolled successfully"
+msgid "{{count}} {{section}} enrolled successfully"
+msgid_plural "{{count}} {{section}} enrolled successfully"
+msgstr[0] "{{count}} {{section}} enrolled successfully"
+msgstr[1] "{{count}} {{section}} enrolled successfully"
 
-msgid "Enroll {{count}} Admitted {{section}}s"
-msgid_plural "Enroll {{count}} Admitted {{section}}s"
-msgstr[0] "Enroll {{count}} Admitted {{section}}s"
-msgstr[1] "Enroll {{count}} Admitted {{section}}s"
+msgid "Enroll {{count}} admitted {{section}}"
+msgid_plural "Enroll {{count}} admitted {{section}}"
+msgstr[0] "Enroll {{count}} admitted {{section}}"
+msgstr[1] "Enroll {{count}} admitted {{section}}"
 
 msgid "Could not complete enrollment."
 msgstr "Could not complete enrollment."
@@ -418,8 +445,8 @@ msgstr "Transfer"
 msgid "Current Standard"
 msgstr "Current Standard"
 
-msgid "Admission Date"
-msgstr "Admission Date"
+msgid "Academic Year"
+msgstr "Academic Year"
 
 msgid "Edition"
 msgstr "Edition"
@@ -444,12 +471,6 @@ msgstr "SEMIS-Admission"
 
 msgid "Follow the instructions to proceed"
 msgstr "Follow the instructions to proceed"
-
-msgid "Select the Organization unit you want to view data"
-msgstr "Select the Organization unit you want to view data"
-
-msgid "Use global filters(Class, Grade and Academic Year)"
-msgstr "Use global filters(Class, Grade and Academic Year)"
 
 msgid "Admissions"
 msgstr "Admissions"
@@ -478,11 +499,11 @@ msgstr "Attendance"
 msgid "Bulk attendance"
 msgstr "Bulk attendance"
 
-msgid "Import {{section}} atendances"
-msgstr "Import {{section}} atendances"
+msgid "Import {{section}} attendance"
+msgstr "Import {{section}} attendance"
 
-msgid "Export {{section}} atendances"
-msgstr "Export {{section}} atendances"
+msgid "Export {{section}} attendance"
+msgstr "Export {{section}} attendance"
 
 msgid "Take attendance"
 msgstr "Take attendance"
@@ -498,9 +519,6 @@ msgstr "All listed students will be affected"
 
 msgid "Yes im sure"
 msgstr "Yes im sure"
-
-msgid "Attendance title"
-msgstr "Attendance title"
 
 msgid "Selected date"
 msgstr "Selected date"
@@ -575,15 +593,22 @@ msgstr ""
 msgid "Student Identifier"
 msgstr "Student Identifier"
 
-msgid "Replace first 4 digits with next admission year"
-msgstr "Replace first 4 digits with next admission year"
+msgid ""
+"Attribute used to store the academic year a student is admitted into. "
+"Auto-filled from the selected academic year on admission."
+msgstr ""
+"Attribute used to store the academic year a student is admitted into. "
+"Auto-filled from the selected academic year on admission."
+
+msgid "Replace first 4 digits with the academic year"
+msgstr "Replace first 4 digits with the academic year"
 
 msgid ""
 "When enabled, the first 4 digits of a generated student identifier are "
-"replaced with the next year of the admission date (admission year + 1)."
+"replaced with the upper (later) year of the selected academic year."
 msgstr ""
 "When enabled, the first 4 digits of a generated student identifier are "
-"replaced with the next year of the admission date (admission year + 1)."
+"replaced with the upper (later) year of the selected academic year."
 
 msgid "Data Element with option sets"
 msgstr "Data Element with option sets"
@@ -690,9 +715,6 @@ msgstr "Student Program"
 msgid "Data Element with Option Sets"
 msgstr "Data Element with Option Sets"
 
-msgid "Academic Year"
-msgstr "Academic Year"
-
 msgid "Grade"
 msgstr "Grade"
 
@@ -747,8 +769,43 @@ msgstr "Pedding Code"
 msgid "Reproved Code"
 msgstr "Reproved Code"
 
-msgid "List of final result status that allows staff promotion"
-msgstr "List of final result status that allows staff promotion"
+msgid ""
+"Optional. Non-repeatable stage where an end-of-year status (e.g. "
+"continuing, terminated) is recorded"
+msgstr ""
+"Optional. Non-repeatable stage where an end-of-year status (e.g. "
+"continuing, terminated) is recorded"
+
+msgid "Re-enrollment status stage"
+msgstr "Re-enrollment status stage"
+
+msgid ""
+"Optional. Statuses that allow a staff member to be carried forward; anyone "
+"with another status starts unticked"
+msgstr ""
+"Optional. Statuses that allow a staff member to be carried forward; anyone "
+"with another status starts unticked"
+
+msgid "Continuing statuses"
+msgstr "Continuing statuses"
+
+msgid "Optional. Data element holding the re-enrollment status"
+msgstr "Optional. Data element holding the re-enrollment status"
+
+msgid "Re-enrollment status"
+msgstr "Re-enrollment status"
+
+msgid ""
+"Registration fields that can be changed for each staff member when carrying "
+"them forward to a new academic year (e.g. class/standard). Everything else "
+"is copied unchanged."
+msgstr ""
+"Registration fields that can be changed for each staff member when carrying "
+"them forward to a new academic year (e.g. class/standard). Everything else "
+"is copied unchanged."
+
+msgid "Adjustable fields on carry-forward"
+msgstr "Adjustable fields on carry-forward"
 
 msgid "Staff Program"
 msgstr "Staff Program"
@@ -834,15 +891,6 @@ msgstr "Transfer Details"
 msgid "Transfer Status Details"
 msgstr "Transfer Status Details"
 
-msgid "Enroll new {{section}}"
-msgstr "Enroll new {{section}}"
-
-msgid "Bulk Enrollment"
-msgstr "Bulk Enrollment"
-
-msgid "Bulk Enrollment Update"
-msgstr "Bulk Enrollment Update"
-
 msgid "Enroll {{section}}"
 msgstr "Enroll {{section}}"
 
@@ -864,12 +912,48 @@ msgstr "SEMIS-Enrollment"
 msgid "Enrollments"
 msgstr "Enrollments"
 
-msgid ""
-"No one will be able to access this program. Add some Organisation Units to "
-"the access list"
-msgstr ""
-"No one will be able to access this program. Add some Organisation Units to "
-"the access list"
+msgid "The final result will be assigned to the selected students."
+msgstr "The final result will be assigned to the selected students."
+
+msgid "Carry forward selected ({{count}})"
+msgid_plural "Carry forward selected ({{count}})"
+msgstr[0] "Carry forward selected ({{count}})"
+msgstr[1] "Carry forward selected ({{count}})"
+
+msgid "Carry forward staff"
+msgstr "Carry forward staff"
+
+msgid "Carry staff forward to {{year}}"
+msgstr "Carry staff forward to {{year}}"
+
+msgid "Target academic year"
+msgstr "Target academic year"
+
+msgid "Enrollment date"
+msgstr "Enrollment date"
+
+msgid "No target academic year"
+msgstr "No target academic year"
+
+msgid "Choose the academic year to carry staff forward to."
+msgstr "Choose the academic year to carry staff forward to."
+
+msgid "Include"
+msgstr "Include"
+
+msgid "Note"
+msgstr "Note"
+
+msgid "Already in {{year}}"
+msgstr "Already in {{year}}"
+
+msgid "{{count}} of {{total}} will be carried forward"
+msgid_plural "{{count}} of {{total}} will be carried forward"
+msgstr[0] "{{count}} of {{total}} will be carried forward"
+msgstr[1] "{{count}} of {{total}} will be carried forward"
+
+msgid "Carry forward"
+msgstr "Carry forward"
 
 msgid ""
 "Configuration error. ValidStatusValue not set in DataStore for "
@@ -877,6 +961,13 @@ msgid ""
 msgstr ""
 "Configuration error. ValidStatusValue not set in DataStore for "
 "{{sectionType}}"
+
+msgid ""
+"No one will be able to access this program. Add some Organisation Units to "
+"the access list"
+msgstr ""
+"No one will be able to access this program. Add some Organisation Units to "
+"the access list"
 
 msgid "Error loading organization units"
 msgstr "Error loading organization units"
@@ -897,20 +988,20 @@ msgstr ""
 msgid "Registering School"
 msgstr "Registering School"
 
-msgid "Enrollment date"
-msgstr "Enrollment date"
-
 msgid "Number of Students"
 msgstr "Number of Students"
 
 msgid "Maximum number of students supported for each file"
 msgstr "Maximum number of students supported for each file"
 
+msgid "Term 3 Total"
+msgstr "Term 3 Total"
+
+msgid "Student Level"
+msgstr "Student Level"
+
 msgid "SEMIS-Staff-Re-enrollment"
 msgstr "SEMIS-Staff-Re-enrollment"
-
-msgid "Use global filters(Type of Staff, Employment Type and Academic Year)"
-msgstr "Use global filters(Type of Staff, Employment Type and Academic Year)"
 
 msgid "SEMIS-Final-Result"
 msgstr "SEMIS-Final-Result"
@@ -923,6 +1014,24 @@ msgstr "Terminated"
 
 msgid "Dropout"
 msgstr "Dropout"
+
+msgid "All"
+msgstr "All"
+
+msgid "Final Decision"
+msgstr "Final Decision"
+
+msgid "Sort Term 3 Total"
+msgstr "Sort Term 3 Total"
+
+msgid "Ascending"
+msgstr "Ascending"
+
+msgid "Descending"
+msgstr "Descending"
+
+msgid "Default order"
+msgstr "Default order"
 
 msgid "Assign re-enrollment status"
 msgstr "Assign re-enrollment status"
@@ -1012,15 +1121,6 @@ msgstr "Export Staff Re-enrollment"
 
 msgid "Export Final Result"
 msgstr "Export Final Result"
-
-msgid "staff"
-msgstr "staff"
-
-msgid "student"
-msgstr "student"
-
-msgid "students"
-msgstr "students"
 
 msgid "Bulk Performance"
 msgstr "Bulk Performance"
@@ -1148,6 +1248,9 @@ msgstr "Approve"
 msgid "Reject"
 msgstr "Reject"
 
+msgid "Search"
+msgstr "Search"
+
 msgid "Pending incoming transfers"
 msgstr "Pending incoming transfers"
 
@@ -1234,12 +1337,6 @@ msgstr "Configurations"
 
 msgid "School Calendar"
 msgstr "School Calendar"
-
-msgid "Student"
-msgstr "Student"
-
-msgid "Staff"
-msgstr "Staff"
 
 msgid "Navigation"
 msgstr "Navigation"
