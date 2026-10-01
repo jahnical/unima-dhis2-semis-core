@@ -30,7 +30,7 @@ const configurations = [
 ];
 
 const dashboardData = [
-    { key: 0, id: "student", title: i18n.t("Student"), subItems: studentCards },
+    { key: 0, id: "student", title: i18n.t("Learner"), subItems: studentCards },
     { key: 1, id: "staff", title: i18n.t("Staff"), subItems: staffCards },
     { key: 2, id: "configurations", title: i18n.t("Configurations"), subItems: configurations }
 ]

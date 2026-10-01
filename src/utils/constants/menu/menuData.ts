@@ -53,7 +53,7 @@ export const menuData = ({
       ],
     },
     {
-      title: i18n.t("Student"),
+      title: i18n.t("Learner"),
       id: "student",
       displayInMenu: true,
       subItems: [
