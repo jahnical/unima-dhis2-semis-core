@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { dashboardData } from "../../utils/constants/dashboard/dashboardData";
 import { ValidationSchema } from "../../schemas/validation/validationSchema";
 import { UrlParamsState } from "../../schemas/urlParams/paramSchema";
+import { useUserProgramAccess } from "../access/useUserProgramAccess";
 
 const useMenuData = () => {
   const ulrParams = useRecoilValue(UrlParamsState)
@@ -23,6 +24,7 @@ const useMenuData = () => {
   const [updatedMenuData, updateMenuData] = useState<any>([])
   const [homePageData, updatedHomePageData] = useState<any>([])
   const userInfoState = useRecoilValue(UserInfoState)
+  const accessibleSections = useUserProgramAccess()
 
 
   let menuDataArray = menuData({
@@ -36,6 +38,14 @@ const useMenuData = () => {
 
   const updateData = (dadosBrutos: any[]) => {
     let copy = [...dadosBrutos];
+
+    // Hide sections whose parent program the current user cannot access.
+    // "navigation" and "configurations" are always kept — they are handled
+    // separately by the super-user check further below.
+    copy = copy.filter((item) => {
+      if (item.id === "navigation" || item.id === "configurations") return true;
+      return accessibleSections.has(item.id);
+    });
 
     for (const element of dataStoreData) {
       const index = copy.findIndex(x => x.id === element.key);
