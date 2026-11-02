@@ -78,7 +78,7 @@ async function* trackedEntityPages(api: Api, program: string, orgUnit?: string) 
     for (let page = 1; ; page++) {
         const params = new URLSearchParams({
             program, page: String(page), pageSize: String(PAGE_SIZE), order: 'createdAt:asc', fields: TRACKED_ENTITY_FIELDS,
-            ...(orgUnit ? { orgUnits: orgUnit, orgUnitMode: 'DESCENDANTS' } : { orgUnitMode: 'ACCESSIBLE' }),
+            ...(orgUnit ? { orgUnit, orgUnitMode: 'DESCENDANTS' } : { orgUnitMode: 'ACCESSIBLE' }),
         })
         const response = await api(`tracker/trackedEntities?${params}`)
         const teis: TrackedEntity[] = response?.trackedEntities ?? response?.instances ?? []

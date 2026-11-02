@@ -8,3 +8,5 @@ build
 src/modules
 src/libs
 /.idea/
+Claude outputs
+docs/test-data
