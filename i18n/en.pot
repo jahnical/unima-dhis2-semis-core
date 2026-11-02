@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2026-10-01T07:22:36.724Z\n"
-"PO-Revision-Date: 2026-10-01T07:22:36.724Z\n"
+"POT-Creation-Date: 2026-11-02T07:23:31.881Z\n"
+"PO-Revision-Date: 2026-11-02T07:23:31.881Z\n"
 
 msgid "No configuration found!"
 msgstr "No configuration found!"
@@ -61,6 +61,33 @@ msgstr "School"
 msgid "Error message"
 msgstr "Error message"
 
+msgid "New Records"
+msgstr "New Records"
+
+msgid "Invalid Records"
+msgstr "Invalid Records"
+
+msgid "Blank days (skipped)"
+msgstr "Blank days (skipped)"
+
+msgid "Imported Records"
+msgstr "Imported Records"
+
+msgid "Updated Records"
+msgstr "Updated Records"
+
+msgid "Errors"
+msgstr "Errors"
+
+msgid "Warnings"
+msgstr "Warnings"
+
+msgid "Total rows"
+msgstr "Total rows"
+
+msgid "No records to display!"
+msgstr "No records to display!"
+
 msgid "Dry Run"
 msgstr "Dry Run"
 
@@ -114,30 +141,6 @@ msgstr "Error details"
 msgid "Warning details"
 msgstr "Warning details"
 
-msgid "New Records"
-msgstr "New Records"
-
-msgid "Invalid Records"
-msgstr "Invalid Records"
-
-msgid "Imported Records"
-msgstr "Imported Records"
-
-msgid "Updated Records"
-msgstr "Updated Records"
-
-msgid "Errors"
-msgstr "Errors"
-
-msgid "Warnings"
-msgstr "Warnings"
-
-msgid "Total rows"
-msgstr "Total rows"
-
-msgid "No records to display!"
-msgstr "No records to display!"
-
 msgid "Export Data Details"
 msgstr "Export Data Details"
 
@@ -152,12 +155,6 @@ msgstr "Export progress"
 
 msgid "Import progress"
 msgstr "Import progress"
-
-msgid "Exporting {{module}} data"
-msgstr "Exporting {{module}} data"
-
-msgid "Importing {{module}} data"
-msgstr "Importing {{module}} data"
 
 msgid "Select an item"
 msgstr "Select an item"
@@ -183,14 +180,14 @@ msgstr "Cancel"
 msgid "Continue"
 msgstr "Continue"
 
+msgid "More Filters"
+msgstr "More Filters"
+
 msgid "Update"
 msgstr "Update"
 
 msgid "Restore"
 msgstr "Restore"
-
-msgid "More Filters"
-msgstr "More Filters"
 
 msgid "Enter text"
 msgstr "Enter text"
@@ -273,6 +270,12 @@ msgstr "Continue searching or click"
 msgid "if you want to admit as a new"
 msgstr "if you want to admit as a new"
 
+msgid "Register new"
+msgstr "Register new"
+
+msgid "if you want to register as a new"
+msgstr "if you want to register as a new"
+
 msgid "Enrollment History"
 msgstr "Enrollment History"
 
@@ -284,12 +287,6 @@ msgstr "New enrollment"
 
 msgid "No enrollments found."
 msgstr "No enrollments found."
-
-msgid "Register new"
-msgstr "Register new"
-
-msgid "if you want to register as a new"
-msgstr "if you want to register as a new"
 
 msgid "rows selected"
 msgstr "rows selected"
@@ -410,6 +407,13 @@ msgstr "Export {{section}}"
 msgid "Admission Deletion"
 msgstr "Admission Deletion"
 
+msgid ""
+"The academic year is not in the school calendar. The enrollment date is "
+"used as its start date."
+msgstr ""
+"The academic year is not in the school calendar. The enrollment date is "
+"used as its start date."
+
 msgid "Could not complete bulk enrollment."
 msgstr "Could not complete bulk enrollment."
 
@@ -431,6 +435,9 @@ msgstr "Learner enrolled successfully"
 
 msgid "Enroll Admitted {{section}}"
 msgstr "Enroll Admitted {{section}}"
+
+msgid "Could not load the admission. Please close and try again."
+msgstr "Could not load the admission. Please close and try again."
 
 msgid "Could not conclude the opertation."
 msgstr "Could not conclude the opertation."
@@ -468,8 +475,11 @@ msgstr "Transfer IN"
 msgid "Transfer OUT"
 msgstr "Transfer OUT"
 
-msgid "SEMIS-Admission"
-msgstr "SEMIS-Admission"
+msgid "SEMIS-Staff-Admission"
+msgstr "SEMIS-Staff-Admission"
+
+msgid "SEMIS-Learner-Admission"
+msgstr "SEMIS-Learner-Admission"
 
 msgid "Follow the instructions to proceed"
 msgstr "Follow the instructions to proceed"
@@ -531,8 +541,20 @@ msgstr "Hide reason of absense"
 msgid "View reason of absense"
 msgstr "View reason of absense"
 
-msgid "SEMIS-Attendance"
-msgstr "SEMIS-Attendance"
+msgid "SEMIS-Staff-Attendance"
+msgstr "SEMIS-Staff-Attendance"
+
+msgid "SEMIS-Learner-Attendance"
+msgstr "SEMIS-Learner-Attendance"
+
+msgid "Grade range"
+msgstr "Grade range"
+
+msgid "Term remark range"
+msgstr "Term remark range"
+
+msgid "Fix the ranges before saving"
+msgstr "Fix the ranges before saving"
 
 msgid "Configurations saved successfuly"
 msgstr "Configurations saved successfuly"
@@ -912,23 +934,38 @@ msgstr "Bulk enrollment"
 msgid "Enrollment Deletion"
 msgstr "Enrollment Deletion"
 
+msgid "Could not load the enrollment. Please close and try again."
+msgstr "Could not load the enrollment. Please close and try again."
+
 msgid "Single {{section}} Enrollment {{mode}}"
 msgstr "Single {{section}} Enrollment {{mode}}"
 
 msgid "Delete"
 msgstr "Delete"
 
-msgid "SEMIS-Enrollment"
-msgstr "SEMIS-Enrollment"
+msgid "SEMIS-Staff-Enrollment"
+msgstr "SEMIS-Staff-Enrollment"
+
+msgid "SEMIS-Learner-Enrollment"
+msgstr "SEMIS-Learner-Enrollment"
 
 msgid "Enrollments"
 msgstr "Enrollments"
+
+msgid "To be promoted"
+msgstr "To be promoted"
+
+msgid "To repeat"
+msgstr "To repeat"
 
 msgid "Please configure the final result field before submitting."
 msgstr "Please configure the final result field before submitting."
 
 msgid "Could not load the existing results. Please try again."
 msgstr "Could not load the existing results. Please try again."
+
+msgid "Could not load the enrollment. Please try again."
+msgstr "Could not load the enrollment. Please try again."
 
 msgid "Could not save the final result."
 msgstr "Could not save the final result."
@@ -938,9 +975,6 @@ msgstr "WARNING"
 
 msgid "rows will be affected"
 msgstr "rows will be affected"
-
-msgid "The final result will be assigned to the selected learners."
-msgstr "The final result will be assigned to the selected learners."
 
 msgid "Carry forward selected ({{count}})"
 msgid_plural "Carry forward selected ({{count}})"
@@ -982,30 +1016,84 @@ msgstr[1] "{{count}} of {{total}} will be carried forward"
 msgid "Carry forward"
 msgstr "Carry forward"
 
-msgid ""
-"Configuration error. ValidStatusValue not set in DataStore for "
-"{{sectionType}}"
-msgstr ""
-"Configuration error. ValidStatusValue not set in DataStore for "
-"{{sectionType}}"
+msgid "Please fill in"
+msgstr "Please fill in"
 
-msgid "1 {{entity}} selected"
-msgstr "1 {{entity}} selected"
-
-msgid "{{count}} {{entities}} selected"
-msgid_plural "{{count}} {{entities}} selected"
-msgstr[0] "{{count}} {{entities}} selected"
-msgstr[1] "{{count}} {{entities}} selected"
+msgid "Choose the grade next year for every group, or “Don't enroll now”."
+msgstr "Choose the grade next year for every group, or “Don't enroll now”."
 
 msgid ""
-"Each selected {{entity}} gets a new enrollment in the academic year chosen "
-"below."
+"Configuration error. Dropout statuses are not set in the {{sectionType}} "
+"final result configuration"
 msgstr ""
-"Each selected {{entity}} gets a new enrollment in the academic year chosen "
-"below."
+"Configuration error. Dropout statuses are not set in the {{sectionType}} "
+"final result configuration"
+
+msgid "Promotable statuses are not configured, so choose the grade."
+msgstr "Promotable statuses are not configured, so choose the grade."
+
+msgid "{{count}} without a final decision"
+msgid_plural "{{count}} without a final decision"
+msgstr[0] "{{count}} without a final decision"
+msgstr[1] "{{count}} without a final decision"
+
+msgid "{{count}} not continuing (dropout)"
+msgid_plural "{{count}} not continuing (dropout)"
+msgstr[0] "{{count}} not continuing (dropout)"
+msgstr[1] "{{count}} not continuing (dropout)"
+
+msgid "{{count}} already enrolled in a later year"
+msgid_plural "{{count}} already enrolled in a later year"
+msgstr[0] "{{count}} already enrolled in a later year"
+msgstr[1] "{{count}} already enrolled in a later year"
+
+msgid "1 {{entity}} will be enrolled in next year"
+msgstr "1 {{entity}} will be enrolled in next year"
+
+msgid "{{count}} {{entities}} will be enrolled in next year"
+msgid_plural "{{count}} {{entities}} will be enrolled in next year"
+msgstr[0] "{{count}} {{entities}} will be enrolled in next year"
+msgstr[1] "{{count}} {{entities}} will be enrolled in next year"
+
+msgid "Each {{entity}} gets a new enrollment in the academic year chosen below."
+msgstr "Each {{entity}} gets a new enrollment in the academic year chosen below."
 
 msgid "Anyone already enrolled in that year is skipped."
 msgstr "Anyone already enrolled in that year is skipped."
+
+msgid "Left out"
+msgstr "Left out"
+
+msgid "The year after the one shown in the list. Change it only if needed."
+msgstr "The year after the one shown in the list. Change it only if needed."
+
+msgid ""
+"The year after the one shown in the list is not in the school calendar, so "
+"choose the year."
+msgstr ""
+"The year after the one shown in the list is not in the school calendar, so "
+"choose the year."
+
+msgid "Choose the academic year"
+msgstr "Choose the academic year"
+
+msgid "Grade next year"
+msgstr "Grade next year"
+
+msgid "Final decision"
+msgstr "Final decision"
+
+msgid "Current grade"
+msgstr "Current grade"
+
+msgid "Learners"
+msgstr "Learners"
+
+msgid "Choose a grade"
+msgstr "Choose a grade"
+
+msgid "Don't enroll now"
+msgstr "Don't enroll now"
 
 msgid "Error loading organization units"
 msgstr "Error loading organization units"
@@ -1023,8 +1111,92 @@ msgstr ""
 "You do not have data-entry access to any organization units. Contact your "
 "administrator to grant you the necessary permissions"
 
+msgid "Enroll {{count}} in next year"
+msgid_plural "Enroll {{count}} in next year"
+msgstr[0] "Enroll {{count}} in next year"
+msgstr[1] "Enroll {{count}} in next year"
+
+msgid "Enrolled in next year"
+msgstr "Enrolled in next year"
+
+msgid "Awaiting enrollment"
+msgstr "Awaiting enrollment"
+
+msgid "Not continuing"
+msgstr "Not continuing"
+
+msgid "No decision yet"
+msgstr "No decision yet"
+
+msgid "Decisions saved for {{count}} learners. None needs a next-year enrollment."
+msgid_plural "Decisions saved for {{count}} learners. None needs a next-year enrollment."
+msgstr[0] "Decisions saved for {{count}} learners. None needs a next-year enrollment."
+msgstr[1] "Decisions saved for {{count}} learners. None needs a next-year enrollment."
+
+msgid ""
+"Decisions saved for {{count}} learners. They are not enrolled in next year "
+"yet."
+msgid_plural ""
+"Decisions saved for {{count}} learners. They are not enrolled in next year "
+"yet."
+msgstr[0] ""
+"Decisions saved for {{count}} learners. They are not enrolled in next year "
+"yet."
+msgstr[1] ""
+"Decisions saved for {{count}} learners. They are not enrolled in next year "
+"yet."
+
+msgid "Enroll in next year"
+msgstr "Enroll in next year"
+
+msgid "Dismiss"
+msgstr "Dismiss"
+
+msgid "Could not count next-year enrollments."
+msgstr "Could not count next-year enrollments."
+
+msgid "Retry"
+msgstr "Retry"
+
+msgid "Counting next-year enrollments…"
+msgstr "Counting next-year enrollments…"
+
+msgid ""
+"A final decision does not enroll a learner in next year. Select the "
+"learners and use “Enroll in next year”."
+msgstr ""
+"A final decision does not enroll a learner in next year. Select the "
+"learners and use “Enroll in next year”."
+
+msgid "Select {{count}} on this page"
+msgid_plural "Select {{count}} on this page"
+msgstr[0] "Select {{count}} on this page"
+msgstr[1] "Select {{count}} on this page"
+
+msgid "Promoted"
+msgstr "Promoted"
+
+msgid "Promote"
+msgstr "Promote"
+
+msgid "Repeated"
+msgstr "Repeated"
+
+msgid "Repeat"
+msgstr "Repeat"
+
+msgid "Loading…"
+msgstr "Loading…"
+
 msgid "Registering School"
 msgstr "Registering School"
+
+msgid ""
+"Leave empty to use the start of the academic year (today if the school "
+"calendar has no start date)"
+msgstr ""
+"Leave empty to use the start of the academic year (today if the school "
+"calendar has no start date)"
 
 msgid "Number of Learners"
 msgstr "Number of Learners"
@@ -1038,11 +1210,14 @@ msgstr "Term 3 Total"
 msgid "Learner Level"
 msgstr "Learner Level"
 
+msgid "Next year"
+msgstr "Next year"
+
 msgid "SEMIS-Staff-Re-enrollment"
 msgstr "SEMIS-Staff-Re-enrollment"
 
-msgid "SEMIS-Final-Result"
-msgstr "SEMIS-Final-Result"
+msgid "SEMIS-Learner-Final-Result"
+msgstr "SEMIS-Learner-Final-Result"
 
 msgid "Staff Re-enrollment"
 msgstr "Staff Re-enrollment"
@@ -1059,29 +1234,14 @@ msgstr "All"
 msgid "Final Decision"
 msgstr "Final Decision"
 
-msgid "Sort Term 3 Total"
-msgstr "Sort Term 3 Total"
-
-msgid "Ascending"
-msgstr "Ascending"
-
-msgid "Descending"
-msgstr "Descending"
-
-msgid "Default order"
-msgstr "Default order"
-
 msgid "Assign re-enrollment status"
 msgstr "Assign re-enrollment status"
 
-msgid "Assign final result"
-msgstr "Assign final result"
+msgid "Record final decision"
+msgstr "Record final decision"
 
 msgid "Perform re-enrollment"
 msgstr "Perform re-enrollment"
-
-msgid "Perform promotion"
-msgstr "Perform promotion"
 
 msgid "Bulk Staff Re-enrollment"
 msgstr "Bulk Staff Re-enrollment"
@@ -1092,11 +1252,23 @@ msgstr "Bulk Final Result"
 msgid "Assign Re-enrollment Status"
 msgstr "Assign Re-enrollment Status"
 
+msgid "Record Final Decision"
+msgstr "Record Final Decision"
+
 msgid "Perform Re-enrollment"
 msgstr "Perform Re-enrollment"
 
+msgid "Enroll in Next Year"
+msgstr "Enroll in Next Year"
+
 msgid "Staff re-enrollment"
 msgstr "Staff re-enrollment"
+
+msgid "Next year enrollment"
+msgstr "Next year enrollment"
+
+msgid "Applies to every selected learner"
+msgstr "Applies to every selected learner"
 
 msgid "Staff Re-enrollment Status"
 msgstr "Staff Re-enrollment Status"
@@ -1104,11 +1276,11 @@ msgstr "Staff Re-enrollment Status"
 msgid "Staff re-enrollment status"
 msgstr "Staff re-enrollment status"
 
+msgid "Recording a decision does not enroll the learner in next year"
+msgstr "Recording a decision does not enroll the learner in next year"
+
 msgid "Some selected staff have no re-enrollment status or were not re-enrolled."
 msgstr "Some selected staff have no re-enrollment status or were not re-enrolled."
-
-msgid "Some selected learners have no final result or were not promoted."
-msgstr "Some selected learners have no final result or were not promoted."
 
 msgid "Please select type of staff and employment type"
 msgstr "Please select type of staff and employment type"
@@ -1119,27 +1291,21 @@ msgstr "Please select section and grade"
 msgid "Re-enrolled staff"
 msgstr "Re-enrolled staff"
 
-msgid "Promoted learners"
-msgstr "Promoted learners"
-
 msgid "Not re-enrolled staff"
 msgstr "Not re-enrolled staff"
 
-msgid "No promoted learners"
-msgstr "No promoted learners"
+msgid "Not enrolled"
+msgstr "Not enrolled"
 
 msgid "Staff Re-enrollment Summary"
 msgstr "Staff Re-enrollment Summary"
 
-msgid "Learners Promotion Summary"
-msgstr "Learners Promotion Summary"
+msgid "Next Year Enrollment Summary"
+msgstr "Next Year Enrollment Summary"
 
 msgid "Staff re-enrollment preview"
 msgstr "Staff re-enrollment preview"
 
-msgid "Learners promotion preview"
-msgstr "Learners promotion preview"
-
 msgid ""
 "The following staff were not re-enrolled. They already exist on the "
 "selected academic year"
@@ -1148,11 +1314,11 @@ msgstr ""
 "selected academic year"
 
 msgid ""
-"The following learners were not promoted. They already exist on the "
-"selected academic year"
+"The following learners were not enrolled. They are already registered in "
+"the selected academic year"
 msgstr ""
-"The following learners were not promoted. They already exist on the "
-"selected academic year"
+"The following learners were not enrolled. They are already registered in "
+"the selected academic year"
 
 msgid "Export Staff Re-enrollment"
 msgstr "Export Staff Re-enrollment"
@@ -1175,8 +1341,11 @@ msgstr "Disable Edition Mode"
 msgid "Allow Edit Mode"
 msgstr "Allow Edit Mode"
 
-msgid "SEMIS-Performance"
-msgstr "SEMIS-Performance"
+msgid "SEMIS-Staff-Performance"
+msgstr "SEMIS-Staff-Performance"
+
+msgid "SEMIS-Learner-Performance"
+msgstr "SEMIS-Learner-Performance"
 
 msgid "Data registered successfully"
 msgstr "Data registered successfully"
@@ -1331,8 +1500,11 @@ msgstr "Incoming transfer"
 msgid "Outgoing transfer"
 msgstr "Outgoing transfer"
 
-msgid "SEMIS - Transfer"
-msgstr "SEMIS - Transfer"
+msgid "SEMIS-Staff-Transfer"
+msgstr "SEMIS-Staff-Transfer"
+
+msgid "SEMIS-Learner-Transfer"
+msgstr "SEMIS-Learner-Transfer"
 
 msgid "Transfers"
 msgstr "Transfers"
@@ -1364,8 +1536,11 @@ msgstr "Specify all necessary transfer details"
 msgid "Perform Transfer"
 msgstr "Perform Transfer"
 
-msgid "SEMIS-Transfer-Execute"
-msgstr "SEMIS-Transfer-Execute"
+msgid "SEMIS-Staff-Transfer-Execute"
+msgstr "SEMIS-Staff-Transfer-Execute"
+
+msgid "SEMIS-Learner-Transfer-Execute"
+msgstr "SEMIS-Learner-Transfer-Execute"
 
 msgid "Transfer Execute"
 msgstr "Transfer Execute"
@@ -1392,47 +1567,10 @@ msgctxt "Date"
 msgid "Enrollment"
 msgstr "Enrollment_Date"
 
-msgid "SEMIS-Staff-Admission"
-msgstr "SEMIS-Staff-Admission"
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "SEMIS"
 
-msgid "SEMIS-Learner-Admission"
-msgstr "SEMIS-Learner-Admission"
-
-msgid "SEMIS-Staff-Enrollment"
-msgstr "SEMIS-Staff-Enrollment"
-
-msgid "SEMIS-Learner-Enrollment"
-msgstr "SEMIS-Learner-Enrollment"
-
-msgid "SEMIS-Staff-Performance"
-msgstr "SEMIS-Staff-Performance"
-
-msgid "SEMIS-Learner-Performance"
-msgstr "SEMIS-Learner-Performance"
-
-msgid "SEMIS-Staff-Attendance"
-msgstr "SEMIS-Staff-Attendance"
-
-msgid "SEMIS-Learner-Attendance"
-msgstr "SEMIS-Learner-Attendance"
-
-msgid "SEMIS-Staff-Transfer"
-msgstr "SEMIS-Staff-Transfer"
-
-msgid "SEMIS-Learner-Transfer"
-msgstr "SEMIS-Learner-Transfer"
-
-msgid "SEMIS-Staff-Transfer-Execute"
-msgstr "SEMIS-Staff-Transfer-Execute"
-
-msgid "SEMIS-Learner-Transfer-Execute"
-msgstr "SEMIS-Learner-Transfer-Execute"
-
-msgid "SEMIS-Learner-Final-Result"
-msgstr "SEMIS-Learner-Final-Result"
-
-msgid "Students"
-msgstr "Students"
-
-msgid "Student"
-msgstr "Student"
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr "SEMIS"
