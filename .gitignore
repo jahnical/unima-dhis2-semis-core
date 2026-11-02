@@ -7,3 +7,5 @@ build
 .env
 src/modules
 src/libs
+Claude outputs
+docs/test-data
